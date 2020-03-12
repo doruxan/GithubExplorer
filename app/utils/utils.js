@@ -1,0 +1,2 @@
+export const deriveTitleBody = (data) => { return data.map(x => ({ title: x.title, description: x.body })) }
+export const deriveNameDescription = (data) => { return data.map(x => ({ title: x.name, description: x.description })) }
