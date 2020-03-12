@@ -23,7 +23,7 @@ const TmbListComponent = ({ onItemPressed, loadItems, data, isProgress }) => {
                 onEndReached={loadItems}
                 // since github is really slow
                 onEndReachedThreshold={0.1}
-                removeClippedSubviews
+                // removeClippedSubviews
                 initialNumToRender={20}
             />
         </MainContainer>
